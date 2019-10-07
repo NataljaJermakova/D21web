@@ -1,0 +1,13 @@
+body{
+    background-color: beige;
+}
+header{
+    margin: 0px auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+nav{
+    border: solid;
+    column-count: 5;
+}
