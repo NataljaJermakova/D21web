@@ -1,5 +1,6 @@
 body{
     background-color: beige;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 header{
     margin: 10px;
@@ -19,9 +20,7 @@ nav{
     padding-right: 30%;
     height: 20%;
 }
-ul{
-	background-color: red;
-}
+
 form{
 	position: absolute;
 	top: 80px;
