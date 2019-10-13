@@ -2,12 +2,52 @@ body{
     background-color: beige;
 }
 header{
-    margin: 0px auto;
+    margin: 10px;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
 nav{
-    border: solid;
-    column-count: 5;
+    border: solid purple;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 16pt;
+    column-count: 4;
+    column-gap: 2%;
+    column-width: 100px;
+    padding-right: 30%;
+    height: 20%;
+}
+ul{
+	background-color: red;
+}
+form{
+	position: absolute;
+	top: 80px;
+	right: 5%;
+}
+aside{
+	padding-left: 10px;
+	margin-top: 20px;
+	position: absolute;
+	left: 72%;
+	right: 10px;
+ 	margin-right: 7px;
+	border: solid;
+	border-color: #dfb1e0;
+}
+main{
+	margin-top: 20px;
+	padding-left: 20px;
+	margin-left: 10px;
+	margin-right: 30%;
+	border: solid;
+	border-color: pink;
+	background-color: pink;
+}
+footer{
+	margin: 10px;
+	padding-left: 20px;
+	border: solid pink;
 }
