@@ -14,27 +14,61 @@
 
     <nav>
         <ul>
-            <a href="index.html"><p>Home</p></a>
-            <p>Our team</p>
-            <a href="projects.html"><p>Projects</p></a>
-            <a href="contact.html"><p>Contact</p></a>
+            <li><a href="index.html">Home</a></li>
+            <li>Our team</li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
     </ul>
     </nav>
 
-    <form>
-        <input type="search" name="q" placeholder="Search query">
-        <input type="submit" value="Go!">
-    </form>
-
+        <form name="search">
+            <input type="search" name="q" placeholder="Search query">
+            <input type="submit" value="Go!">
+        </form>
 
     <aside>
         <h2>Related</h2>
 
         <ul>
-            <li><a href="file:///C:/Users/X220/Favorites/Downloads/tipichnij%20sait/index.html#">Bla bla bla.</a></li>
-            <li><a href="file:///C:/Users/X220/Favorites/Downloads/tipichnij%20sait/index.html#">Bla bla bla tolko vtoraja stroka i nichego bolshe, vsjo, uze konec.</a></li>
+            <li>Bla bla bla.</li>
+            <li>Bla bla bla tolko vtoraja stroka i nichego bolshe, vsjo, uze konec.</li>
         </ul>
     </aside>
+    
+    <form style="position: static; margin-left: 10px; margin-right: 30%; margin-top: 20px;  text-align: center; 
+    padding-top: 20px; background-color: pink;"> <!-- šeit style ir vajadzīgs, lai atdalīt 2 atsēvišķus blokus (formas) -->
+    <form name="test">
+        <h3>Ievadiet vardu</h3>
+        <input type="text" name="tests">
+        <h3>Ievadiet savu mājās iesauku</h3>
+        <input type="password" name="tests2">
+
+        <h4>Izvēlēties rūtiņu</h4>
+        <input type="checkbox" name='jaut3' value ='1'/>Pirmo rūtiņu<br/>
+        <input type="checkbox" name='jaut3' value ='1'/>Otro rūtiņu<br/>
+        <input type="checkbox" name='jaut3' value ='1'/>Trešo rūtiņu<br/>
+        <input type="checkbox" name='jaut3' value ='1'/>Ceturto rūtiņu<br/>
+            
+        <h4>Izvēlēties vienu: </h4>
+        <input name='jaut1' value='1' type="radio"/>Nauda<br/>
+        <input name='jaut1' value='1' type="radio"/>Ģimene<br/>
+        <input name='jaut1' value='1' type="radio"/>Pašattīstība<br/>
+        <input name='jaut1' value='1' type="radio"/>Izklaides<br/>
+
+        <h4>Kā jums tik tālu?</h4>
+        <select name='1jaut'>
+            <option></option>
+            <option>Labi</option>
+            <option>Viduvēji</option>
+            <option>Nākamais jautājums</option>
+        </select>
+
+        <h4>Tas ir viss, paldies</h4>
+        <input type="submit" value="sūtīt"/>
+
+        <h6>
+        Galvenā izstrādātāja- Nataļja Jermakova. Jā, viņai nepatīk atstāt tukšas lapas.</h6>
+    </form>
 
     <footer>
         <p>@Copyright 2050 by nobody. All rights reversed.</p>
