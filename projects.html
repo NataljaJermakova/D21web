@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
+    
     <title>Projects</title>
     <link rel="icon" href="image/logo.png">
 </head>
@@ -26,25 +27,47 @@
         </form>
     </nav>
 
-    <div class="content">
-        <aside>
-            <h2>Related</h2>
+    <main>
+            <h2>Soon there <b>WILL</b> be projects. We promise. At least <i>hope so</i>, but for now, take a look at these otters :) </h2>
+            
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="image/LutraEstZivis.jpg" alt="Lutra est zivis" style="width:100%;"> <!-- izmainit!! -->
+                    <div class="text">Caption Text</div>
+                </div>
 
-            <ul>
-                <li>Bla bla bla.</a></li>
-                <li>Bla bla bla tolko vtoraja stroka i nichego bolshe, vsjo, uze konec.</li>
-            </ul>
-        </aside>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="image/LutraRokas.jpg" style="width:100%;">
+                    <div class="text">Caption Two</div>
+                </div>
 
-        <main>
-            <h2>Soon there <b>WILL</b> be projects. We promise. At least <i>hope so</i>, but for now, take a look at this lutras :) </h2>
-            <img src="image/Lutra.jpg" alt="Lutras guļ" style="width: 100%;">
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="image/LutrasGul.jpg" style="width:100%;">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="image/LutraUdeni.jpg" style="width:100%;">
+                    <div class="text">Caption Four</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span>     
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
         </main>
-    </div>
-
     <footer>
         <p>@Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
-
+<script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
