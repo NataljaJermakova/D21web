@@ -17,11 +17,12 @@ header{
     text-align: center;
 }
 nav{
-	background-color: rgba(206, 192, 163, 0.32);
+	background-color: rgba(234, 186, 47, 0.05);
 	padding-left: 0;
-    border: solid purple;
+	border: solid rgba(234, 186, 47, 0.2);
     margin: 10px;
     font-size: 16pt;
+	border-radius: 25px;
 }
 ul{
   padding: 0;
@@ -37,14 +38,20 @@ nav form{
  	bottom: 20px;
  	right: 20px;
 }
+nav form input{
+	border-radius: 25px;
+	box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
 aside{
 	position: absolute;
     right: 20px;
     width: 350px;
 	padding-left: 10px;
 	padding-right: 10px;
-	border: solid;
+	border: solid 1px;
 	border-color: #dfb1e0;
+	box-shadow: -2px 4px 5px #ffc2cc;
 }
 aside ul{
 	list-style-type: none;
@@ -57,14 +64,14 @@ main{
 	margin-right: 380px;
 	padding-right: 20px;
 	padding-left: 20px;
-	border: solid;
-	border-color: pink;
-	background-color: rgba(0,0,0,0.1);
 }
 footer{
 	margin: 10px; 
 	padding-left: 10px;
-	border: solid pink;
+	padding-top: 20px;
+	text-align: center;
+	color: #000000;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.51);
 }
 
 
@@ -93,6 +100,7 @@ footer{
   	order: 0;
     width: 100%;
     margin: 10px;
+	padding-bottom: 20px;
   }
   aside{
   	order: 1;
