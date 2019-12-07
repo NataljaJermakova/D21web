@@ -1,67 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Home page</title>
-    <link rel="icon" href="image/logo.png">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-<body>
-    <header>It's MY page</header>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="libraries\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
 
-    <nav>
-        
-        <ul>
-            <li>Home</li>
-            <li><a href="our_team.html">Our team</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <form>
-            <input type="search" name="q" placeholder="Search query">
-            <input type="submit" value="Go!">
-        </form>
-    </nav>
+        <link rel="stylesheet" href="libraries\bootstrap-3.3.7-dist\css\bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Home</title>
+        <link rel="icon" href="image/logo.png">
+    </head>
 
+    <body>
+        <div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+            <header>It's MY page</header>
 
-    <div class="content">
-        <aside>
-            <h2>Related</h2>
+            <nav class="navbar navbar-light">
+               <div class="container-fluid">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                       <ul class="nav navbar-nav" style="width: 540px;">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="our_team.html">Our team</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                       </ul>
+                       <form class="form-inline">
+                           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                       </form>
+                  </div>
+               </div>
+            </nav>
 
-            <ul>
-                <li><a href="index.html">Fun facts about lutras</li>
-                <li><a href="projects.html#video">An otter having a brushing *supercute*</a></li>
-            </ul>
-        </aside>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 ">
+                        <h2>Hi there! Welcome to MY otter page!</h2>
+                        <p>Please, don't take too serious every sentence here and smile :)</p>
+                        <h3>Fun facts about otters</h3>
+                        <img src="image/LutrasGul.jpg" alt="Otters sleep" style="width: 100%; padding-bottom: 20px;">
+                        <ol>
+                            <li>Thirteen different species of otter exist all around the world. Some are small river otters, and some are bigger sea otters.</li>
+                            <li>90% of all sea otters live on the coast of Alaska.</li>
+                            <li>They're hungry animals! Sea otters eat 25% of their body weight in food every day.</li>
+                            <li>Clever creatures, they'll use rocks to crack open the clams. They carry rocks and store food in the loose skin under their armpits - who needs carrier bags!</li>
+                            <li>Baby otters are called pups. Newborn pups need lots of attention, and will stay close to their mum's until they've developed enough skills to go it alone - usually at 6 months.</li>
+                            <li>An otter pup's fur is too dense for it to swim underwater. So, their mother leaves them floating while she searches for food, until their adult fur grows in.</li>
+                            <li>Don't challenge an otter to a holding-your-breath competition! Sea otters can stay underwater for 5 minutes, and river otters can hold their breath for even longer - 8 minutes!</li>
+                            <li>Otters like to stick together, so when they sleep they will wrap themselves in seaweed and float together in a group. A group of resting otters is called a raft. We wouldn't go drifting away on one of these rafts, however! Otters have a nasty bite!</li>
+                        </ol>
+                        <h3>Read carefully, you'll need this</h3>
+                        <p>If you're sure, <a href="our_team.html#test">click it...</a></p>
+                </div>
 
-        <main>
-            <article>
-                <h2>Hi there! Welcome to MY otter page!</h2>
-                <p>Please, don't take too serious every sentence here and smile :)</p>
-                <h3>Fun facts about otters</h3>
-                <img src="image/LutrasGul.jpg" alt="Otters sleep" style="width: 100%">
-                <ol>
-                    <li>Thirteen different species of otter exist all around the world. Some are small river otters, and some are bigger sea otters.</li>
-                    <li>90% of all sea otters live on the coast of Alaska.</li>
-                    <li>They're hungry animals! Sea otters eat 25% of their body weight in food every day.</li>
-                    <li>Clever creatures, they'll use rocks to crack open the clams. They carry rocks and store food in the loose skin under their armpits - who needs carrier bags!</li>
-                    <li>Baby otters are called pups. Newborn pups need lots of attention, and will stay close to their mum's until they've developed enough skills to go it alone - usually at 6 months.</li>
-                    <li>An otter pup's fur is too dense for it to swim underwater. So, their mother leaves them floating while she searches for food, until their adult fur grows in.</li>
-                    <li>Don't challenge an otter to a holding-your-breath competition! Sea otters can stay underwater for 5 minutes, and river otters can hold their breath for even longer - 8 minutes!</li>
-                    <li>Otters like to stick together, so when they sleep they will wrap themselves in seaweed and float together in a group. A group of resting otters is called a raft. We wouldn't go drifting away on one of these rafts, however! Otters have a nasty bite!</li>
-                </ol>
-                <h3>Read carefully, you'll need this</h3>
-                <p>If you're sure, <a href="our_team.html#test">click it...</a></p>
-            </article>
-        </main>
-    </div>
+                <div class="aside col-lg-4 col-md-3 col-sm-3 col-xs-12 ">
+                    <h2>Related</h2>
 
-    <footer>
-        <p>@Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
-</body>
+                        <ul>
+                            <li><a href="index.html">Fun facts about lutras</li>
+                            <li><a href="projects.html#video">An otter having a brushing *super cute*</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>@Copyright 2050 by nobody. All rights reversed.</p>
+        </footer>
+    </body>
 </html>

@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="libraries\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="libraries\bootstrap-3.3.7-dist\css\bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     
     <title>Projects</title>
@@ -12,32 +16,37 @@
 </head>
 
 <body>
-    <header>It's MY page</header>
+    <div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+        <header>It's MY page</header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="our_team.html">Our team</a></li>
-            <li>Projects</li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <form>
-            <input type="search" name="q" placeholder="Search query">
-            <input type="submit" value="Go!">
-        </form>
-    </nav>
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav" style="width: 540px;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="our_team.html">Our team</a></li>
+                        <li class="active"><a href="#">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
 
-    <div class="content">
-        <aside>
-            <h2>Related</h2>
-
-            <ul>
-                <li><a href="index.html">Fun facts about lutras</li>
-                <li><a href="projects.html#video">An otter having a brushing *supercute*</a></li>
-            </ul>
-        </aside>
-    
-        <main>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12 ">
                 <h2>Soon there <b>WILL</b> be projects. We promise. At least <i>hope so</i>, but for now, take a look at these otters :) </h2>
                 <!-- Images for the lightbox -->
                 <div class="row">
@@ -117,8 +126,18 @@
                             allowfullscreen>
                     </iframe>
                 </div>
-            </main>
+            </div>
+
+            <div class="aside col-lg-4 col-md-3 col-sm-3 col-xs-12">
+                <h2>Related</h2>
+
+                <ul>
+                    <li><a href="index.html">Fun facts about lutras</li>
+                    <li><a href="projects.html#video">An otter having a brushing *super cute*</a></li>
+                </ul>
+            </div>
         </div>
+    </div>
     <footer>
         <p>@Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
