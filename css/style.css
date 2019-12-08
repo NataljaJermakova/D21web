@@ -4,7 +4,7 @@ html{
 }
 body{
     background-color: rgba(0, 0, 0, 0);
-    font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Cambria, Georgia, serif;
     min-width: 300px;
 }
 header{
@@ -13,8 +13,13 @@ header{
     font-weight: bold;
     text-align: center;
 }
-h3{padding-bottom: 20px;}
-h4{ padding-top: 20px;}
+h1{font-size: 50px; }
+h2{font-size: 35px; }
+h3{font-size: 30px; padding-bottom: 20px;}
+h4{font-size: 27.5px; padding-top: 20px;}
+p{font-size: 25px;}
+li{font-size: 20px;}
+label{font-size: 20px; font-weight: normal}
 
 nav{
 	background-color: rgba(245, 215, 129, 0.23);
